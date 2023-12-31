@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font Styles====================================================================================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&family=Poppins:wght@600&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&family=Poppins:wght@600&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&family=Poppins:wght@600&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Style Sheet====================================================================================================-->
+    <link rel="stylesheet" href="new.css" />
+
+    <!--Toggle Button==================================================================================================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.css"
+      integrity="sha512-TZTUnuHs1njGko8PJqZlHzqZTZd880A+BvhR1jy1v4mWB4VFKVLG/eK9LYdDjxqNLmttSC1ygmqg6rkYjnEgaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b10d45e53.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+
+    <title>AT Digital</title>
+  </head>
+
+  <body>
+    <!--Nav Bar=======================================================-->
+    <div class="nav">
+      <nav>
+        <label class="logo"><img src="/assests/Logo.png" /></label>
+        <ul>
+          <li><a href="" class="">SERVICES</a></li>
+          <li><a href="" class="">ABOUT US</a></li>
+          <li><a href="" class="">CONTACT US</a></li>
+          <li><a href="" class="">CAREERS</a></li>
+        </ul>
+        <label id="icon">
+          <i class="fas fa-bars"></i>
+        </label>
+      </nav>
+    </div>
+
+    <!--Cover Image=======================================================-->
+    <div class="first-content">
+      <img src="./assests/Hero Section.png" class="first-img" />
+    </div>
+
+    <!--Lable On the Image=================================================-->
+    <div class="second-content">
+      <p>
+        We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+      </p>
+      <div class="button">Get free consultation</div>
+    </div>
+
+    <!--Content part 1=====================================================-->
+    <div class="container">
+      <div class="left-side">
+        <img src="/assests/image 2.png" alt="Left Image" />
+      </div>
+
+      <div class="right-side">
+        <p class="topic">Web & Mobile App Development</p>
+        <p class="details">
+          Your web and mobile Apps are pieces of the puzzle to grow your
+          business. We use frameworks which tailor content and engagement
+          methods to respond to different intents shown by your potential
+          customers who interact with your business online.
+        </p>
+        <button class="button">LEARN MORE</button>
+      </div>
+    </div>
+
+    <!--Content part 2=====================================================-->
+    <div class="container" id="container-ptwo">
+      <div class="right-side" id="r-side">
+        <p class="topic">Digital Strategy Consulting</p>
+        <p class="details">
+          Your digital strategy should complement the overall marketing strategy
+          of the company. In online marketing, each component will never work in
+          isolation and every business needs a different mix. We provide a clear
+          concept and strategic overview to find the most efficient model for
+          your business.
+        </p>
+        <button class="button">LEARN MORE</button>
+      </div>
+
+      <div class="left-side">
+        <img src="/assests/image 1.png" alt="Left Image" />
+      </div>
+    </div>
+
+    <!--Footer================================================================-->
+    <div class="footer">
+      <div class="footer-top">
+        <div class="footer-first">
+          <img src="/assests/Logo.png" />
+          <br />
+          <br />
+          <p>
+            Your goal is our target. Not anything in between. We use online
+            marketing platforms and tools to achieve single objective - your
+            business results.
+          </p>
+        </div>
+
+        <div class="footer-second">
+          <h3>Our Technologies</h3>
+          <p>ReactJS</p>
+          <p>Gatsby</p>
+          <p>NextJS</p>
+          <p>NodeJS</p>
+          <p>GraphQL</p>
+          <p>Laravel</p>
+        </div>
+
+        <div class="footer-second next">
+          <h3>Our Services</h3>
+          <p>Social media Marketing</p>
+          <p>Web & Mobile App Development</p>
+          <p>Data & Analytics</p>
+          <p>Google Marketing solutions</p>
+          <p>Search Engine Optimization</p>
+        </div>
+      </div>
+
+      <div class="footer-down">
+        <hr />
+        <br />
+        <p>Privacy Policy &nbsp;| &nbsp; Terms & Conditions</p>
+      </div>
+    </div>
+  </body>
+</html>
