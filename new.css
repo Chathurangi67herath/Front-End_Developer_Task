@@ -369,10 +369,10 @@ label.logo {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 426px) {
   .nav {
-    width: 160%;
-    padding: 0px 90px 0px 90px;
+    width: 220%;
+    padding-left: 50px;
   }
   .nav #icon {
     display: block;
@@ -397,11 +397,10 @@ label.logo {
     left: 0;
   }
   .first-img {
-    width: 220%;
-    height: 500px;
+    width: 250%;
   }
   .second-content {
-    width: 190%;
+    width: 220%;
     height: 530px;
     left: 0px;
   }
@@ -433,7 +432,7 @@ label.logo {
     top: 1100px;
     gap: 100px;
     position: relative;
-    width: 100%;
+    width: 140%;
     margin: 100px 200px;
   }
   #container-ptwo {

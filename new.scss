@@ -367,11 +367,11 @@ p{
 
 //=========================================================
 
-@media (max-width:376px){
+@media (max-width:426px){
 
 .nav{
-    width: 160%;
-    padding: 0px 90px 0px 90px;
+    width: 220%;
+    padding-left:50px;
 }
 
 .nav #icon{
@@ -398,12 +398,11 @@ p{
 }
 
     .first-img{
-        width: 220%;   
-        height: 500px;
+        width: 250%;   
     }
 
     .second-content{
-        width: 190%; //change
+        width: 220%; //change
         height: 530px;
         left: 0px;
     }
@@ -429,7 +428,7 @@ p{
         top: 1100px;
         gap: 100px;
         position: relative;
-        width: 100%;
+        width: 140%;
         margin: 100px 200px;
     }
 
