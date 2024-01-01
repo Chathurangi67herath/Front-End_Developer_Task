@@ -370,7 +370,7 @@ p{
 @media (max-width:426px){
 
 .nav{
-    width: 220%;
+    width: 100%;
     padding-left:50px;
 }
 
@@ -398,11 +398,11 @@ p{
 }
 
     .first-img{
-        width: 250%;   
+        width: 100%;   
     }
 
     .second-content{
-        width: 220%; //change
+        width: 100%; //change
         height: 530px;
         left: 0px;
     }
@@ -428,7 +428,7 @@ p{
         top: 1100px;
         gap: 100px;
         position: relative;
-        width: 140%;
+        width: 100%;
         margin: 100px 200px;
     }
 
@@ -473,7 +473,7 @@ p{
     }
     
   .footer {        
-        width: 200%;
+        width: 100%;
         top: 3300px;   
     }
     
